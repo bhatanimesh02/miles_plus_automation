@@ -30,9 +30,9 @@ def convert_files(file_path):
 
         contract_abbreviation_column = input_data.columns[-1]
         contract_no = input_data[contract_abbreviation_column].apply(lambda x:x.split(" ")[0])
-        print(contract_no)
+        # print(contract_no)
         abbreviation = input_data[contract_abbreviation_column].apply(lambda x:x.split(" ")[1:])
-        print(abbreviation)
+        # print(abbreviation)
         abbreviation = [" ".join(x) for x in abbreviation]
         input_data['Miles+ Code'] = contract_no
         input_data['abbreviation'] = abbreviation
@@ -43,11 +43,11 @@ def convert_files(file_path):
 
         new_abbreviation_column = input_data.columns[-1]
         first_abbreviation = input_data[new_abbreviation_column].apply(lambda x: '-'.join(x.split("-")[:-1]) )
-        print(first_abbreviation)
+        # print(first_abbreviation)
         second_abbreviation = input_data[new_abbreviation_column].apply(lambda x:x.split("-")[-1])
-        print(second_abbreviation)
+        # print(second_abbreviation)
         second_abbreviation = ["".join(x) for x in second_abbreviation]
-        print(second_abbreviation)   
+        # print(second_abbreviation)   
         input_data['Activity- Rate type'] = first_abbreviation
         input_data['Activity Type'] = second_abbreviation
         input_data.drop(new_abbreviation_column,axis=1, inplace=True)
