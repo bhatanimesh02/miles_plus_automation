@@ -5,10 +5,12 @@ from openpyxl.styles import Border, Side
 
 #=============================  setting paths for folders =======================================================
 
-source_folder = r"C:\Users\A200181885\Desktop\txt_to_csv\v2\txt\\"
+source_folder = input("Enter source location : ")
+# r"C:\Users\A200181885\Desktop\txt_to_csv\v2\txt\\"
 os.chdir(source_folder)
 
-destination_folder = r"C:\Users\A200181885\Desktop\txt_to_csv\v2\csv\\"
+destination_folder = input("Enter destination location : ")
+# r"C:\Users\A200181885\Desktop\txt_to_csv\v2\csv\\"
 
 #=============================  fucntion to convert txt to csv ==================================================
 
