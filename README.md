@@ -19,12 +19,11 @@ As you go inside the milesplus folder, you will see a file "app.py". That's the 
 - After the conversion is done, user gets informed about the files converted and where the converted files are stored (destination folder).
 
 ## How to run the script
-This script is kept on a public github repo. Passing the source folder and destination folder path of local file system is neccessary in order to tell the script that where the "txt" files are kept and where to store them after the conversion. Add an extra **"\"** to both paths. 
+This script is kept on a public github repo. Passing the source folder and destination folder path of local file system is neccessary in order to tell the script that where the "txt" files are kept and where to store them after the conversion. Add an extra **"\\"** to both paths. 
 
 ### Example:
-```
-cur=l -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "C:\users\source\\" --destination "C:\users\destination\\"
-```
+> cur=l -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "C:\users\source\\\\" --destination "C:\users\destination\\\\"
+
 ### Command
 ```sh
 curl -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "<source-folder-path>" --destination "<destination-folder-path>"
