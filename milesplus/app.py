@@ -1,18 +1,22 @@
-import csv, json, openpyxl, os, shutil, sys
+import csv, json, openpyxl, os, shutil, argparse
 import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Border, Side
 
 #=============================  setting paths for folders =======================================================
 
-source_folder = sys.argv[1:]
-# input("Enter source location : ")
-# r"C:\Users\A200181885\Desktop\txt_to_csv\v2\txt\\"
+parser = argparse.ArgumentParser()
+parser.add_argument('-a', '--source', type=str)
+parser.add_argument('-b', '--destination', type=str)
+args = parser.parse_args()
+source_folder = args.source
+# "https://github.com/bhatanimesh02/miles_plus_automation/tree/main/txt"
+# "C:\Users\A200181885\Desktop\txt_to_csv\v2\txt\\"
 os.chdir(source_folder)
 
-destination_folder = sys.argv[2:]
-# input("Enter destination location : ")
-# r"C:\Users\A200181885\Desktop\txt_to_csv\v2\csv\\"
+destination_folder = args.destination
+# "https://github.com/bhatanimesh02/miles_plus_automation/tree/main/csv"
+# "C:\Users\A200181885\Desktop\txt_to_csv\v2\csv\\"
 
 #=============================  fucntion to convert txt to csv ==================================================
 
