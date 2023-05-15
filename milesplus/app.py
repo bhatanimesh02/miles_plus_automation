@@ -88,7 +88,7 @@ for file in os.listdir():
       file_path =f"{source_folder}/{file}" 
     #   print(file_path)
       convert_files(file_path)
-    #   print(file+' : Converted')
+      print(file+' : Converted')
 
 
 #=============================  Moving CSV files to CSV folder =====================================================
