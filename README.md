@@ -22,9 +22,9 @@ As you go inside the milesplus folder, you will see a file "app.py". That's the 
 This script is kept on a public github repo. Passing the source folder and destination folder path of local file system is neccessary in order to tell the script that where the "txt" files are kept and where to store them after the conversion. Add an extra **"\"** to both paths. 
 
 ### Example:
-<sub>
- curl -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "C:\users\source\\" --destination "C:\users\destination\\"
-</sub>
+```
+cur=l -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "C:\users\source\\" --destination "C:\users\destination\\"
+```
 ### Command
 ```sh
 curl -sS https://raw.githubusercontent.com/bhatanimesh02/miles_plus_automation/main/milesplus/app.py | python - --source "<source-folder-path>" --destination "<destination-folder-path>"
