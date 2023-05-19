@@ -77,6 +77,11 @@ def convert_files(file_path):
     for row in ws.rows:
         for cell in row:
             cell.border = border
+    bold_font = openpyxl.styles.Font(bold=True)
+    for col in ws.iter_cols(min_row=1, max_row=1):
+        for cell in col:
+            cell.font = bold_font
+            
     wb.save(fname+".csv")
 
 #=============================  End of the fucntion=================================================================
