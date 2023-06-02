@@ -9,6 +9,28 @@
 - [python download link](https://www.python.org/downloads/)
 - [git bash download link](https://git-scm.com/download/win)
 
+## Setting the appropriate paths for python
+There will be two paths that you will have to set
+1) For the python.exe file -> set the path of the folder where the python.exe file is present
+2) For the "python/scripts" folder
+
+## Setting the http and https proxy 
+```sh
+export http_proxy=http://<user-id-starting-from-A20******>:<your-machine-password>@10.24.19.83:8080
+```
+```sh
+export https_proxy=http://<user-id-starting-from-A20******>:<your-machine-password>@10.24.19.83:8080
+```
+
+## Downloading the modules
+Since the script you are about to run, has some modules which needs to be installed before you run the script. Commands for the installation are mentioned below.
+```sh
+pip3 install openpyxl
+```
+```sh
+pip3 install pandas
+```
+
 ## The script
 As you go inside the milesplus folder, you will see a file "app.py". That's the script conataining the code for the conversion.
 
