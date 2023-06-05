@@ -14,7 +14,7 @@ There will be two paths that you will have to set
 1) For the python.exe file -> set the path of the folder where the python.exe file is present
 2) For the "python/scripts" folder
 
-![image](https://github.com/bhatanimesh02/miles_plus_automation/assets/9917728/c5e5b909-6b37-4595-88d6-52558777e6d1)
+
 
 
 ## Setting the http and https proxy 
