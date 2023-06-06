@@ -14,9 +14,20 @@ There will be two paths that you will have to set
 1) For the python.exe file -> set the path of the folder where the python.exe file is present
 2) For the "python/scripts" folder
 
-![Alt Text](milesplus/images/1.jpg) ![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
+- **Search for variable on your windows machine and click on "Edit the system environment variables"**
+
+![Alt Text](milesplus/images/5.jpg)
+
+- **On "System Properties" window, click on "Environment Variables"**
+
+![Alt Text](milesplus/images/1.jpg)
+
+- **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**
+
+![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
 
 ## Setting the http and https proxy 
+- Open "Git Bash" and then export the following paths by adding respective user-id and password configured for your windows machine
 ```sh
 export http_proxy=http://<user-id-starting-from-A20******>:<your-machine-password>@10.24.19.83:8080
 ```
