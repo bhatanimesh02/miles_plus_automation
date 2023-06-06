@@ -14,8 +14,7 @@ There will be two paths that you will have to set
 1) For the python.exe file -> set the path of the folder where the python.exe file is present
 2) For the "python/scripts" folder
 
-
-
+![Alt Text](milesplus/images/1.jpg) ![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
 
 ## Setting the http and https proxy 
 ```sh
