@@ -22,7 +22,7 @@ There will be two paths that you will have to set
 
 ![Alt Text](milesplus/images/1.jpg)
 
-- **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**(One time activity)
+- **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder****(One time activity)**
 
 C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311
 
@@ -33,7 +33,7 @@ Add the above paths in both User and system variables
 
 ![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
 
-## Downloading the modules
+## Downloading the modules**(One time activity)**
 Since the script you are about to run, has some modules which needs to be installed before you run the script. Commands for the installation are mentioned below.
 Open "Git Bash" and then run following command:
 ```sh
