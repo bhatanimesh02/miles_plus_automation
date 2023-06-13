@@ -22,7 +22,7 @@ There will be two paths that you will have to set
 
 ![Alt Text](milesplus/images/1.jpg)
 
-- **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**
+- **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**(One time activity)
 
 C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311
 
@@ -33,7 +33,17 @@ Add the above paths in both User and system variables
 
 ![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
 
-## Setting the http and https proxy 
+## Downloading the modules
+Since the script you are about to run, has some modules which needs to be installed before you run the script. Commands for the installation are mentioned below.
+Open "Git Bash" and then run following command:
+```sh
+pip3 install openpyxl
+```
+```sh
+pip3 install pandas
+```
+
+## Setting the http and https proxy (Run the commands every time you convert files)
 - Open "Git Bash" and then export the following paths by adding respective user-id and password configured for your windows machine
 ```sh
 export http_proxy=http://<user-id-starting-from-A20******>:<your-machine-password>@10.24.19.83:8080
@@ -48,16 +58,15 @@ Replacmenct of @ is %40
 Replacmenct of # is %23
 
 For example if your machine password is World@123, then in the above proxy commands , the <your-machine-password> should be set as **World%40123**
+ 
+ And the commands will look like this:
+ 
+ export http_proxy=http://A20****:World%40123@10.24.19.83:8080
+ 
+ export https_proxy=http://A20****:World%40123@10.24.19.83:8080
 
 
-## Downloading the modules
-Since the script you are about to run, has some modules which needs to be installed before you run the script. Commands for the installation are mentioned below.
-```sh
-pip3 install openpyxl
-```
-```sh
-pip3 install pandas
-```
+
 
 ## The script
 As you go inside the milesplus folder, you will see a file "app.py". That's the script conataining the code for the conversion.
