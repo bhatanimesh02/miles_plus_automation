@@ -42,6 +42,14 @@ export http_proxy=http://<user-id-starting-from-A20******>:<your-machine-passwor
 export https_proxy=http://<user-id-starting-from-A20******>:<your-machine-password>@10.24.19.83:8080
 ```
 
+Note: If your machine password contains special characters, it needs to be replaced by specific characters recommended by python
+
+Replacmenct of @ is %40 
+Replacmenct of # is %23
+
+For example if your machine password is World@123, then in the above proxy commands , the <your-machine-password> should be set as **World%40123**
+
+
 ## Downloading the modules
 Since the script you are about to run, has some modules which needs to be installed before you run the script. Commands for the installation are mentioned below.
 ```sh
