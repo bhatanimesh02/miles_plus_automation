@@ -24,6 +24,12 @@ There will be two paths that you will have to set
 
 - **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**
 
+C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311
+C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311\Scripts
+
+Note: The above paths can vary based on installations on your machine.
+Add the above paths in both User and system variables
+
 ![Alt Text](milesplus/images/2.jpg) ![Alt Text](milesplus/images/3.jpg) ![Alt Text](milesplus/images/4.jpg)
 
 ## Setting the http and https proxy 
