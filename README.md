@@ -25,6 +25,7 @@ There will be two paths that you will have to set
 - **Edit the "path" variable, click on "New" button to add new paths, and add paths for "python.exe" file and "python/scripts" folder**
 
 C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311
+
 C:\Users\<A200*****>\AppData\Local\Programs\Python\Python311\Scripts
 
 Note: The above paths can vary based on installations on your machine.
